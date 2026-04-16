@@ -26,13 +26,18 @@
     <nav id="navbar">
         <!-- LOGO IS HERE: Change the text inside the div below -->
         <div class="logo">HEY THERE</div>
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#projects">Work</a></li>
-            <li><a href="#skills">Capabilities</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#projects" class="nav-link">Work</a></li>
+            <li><a href="#skills" class="nav-link">Capabilities</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
     </nav>
 
     <section class="hero" id="home">
@@ -42,7 +47,8 @@
                 <img src="profile.jpg" alt="Aditya Kumar" class="profile-img">
             </div>
             <h1>Crafting Digital <br> Experiences.</h1>
-            <p class="hero-description">I design and build high-performance, visually stunning websites that help you stand out and attract customers.</p>
+            <p class="hero-description">I design and build high-performance, visually stunning websites that help you
+                stand out and attract customers.</p>
             <div class="hero-stats">
                 <span class="stat-badge">💰 Starts at ₹300</span>
                 <span class="stat-badge">⚡ 24h Delivery</span>
@@ -54,39 +60,54 @@
     <section id="projects">
         <h2 class="section-title">My Services</h2>
         <div class="grid">
+
             <div class="card">
-                <i class="fas fa-laptop-code"></i>
-                <h3>Frontend Development</h3>
-                <ul class="service-list">
-                    <li>Build responsive websites (HTML, CSS, JS)</li>
-                    <li>Create portfolio websites for students</li>
-                    <li>Design landing pages for businesses</li>
-                    <li>Convert designs (Figma/PSD) to websites</li>
-                    <li>Make websites mobile-friendly</li>
-                </ul>
+                <i class="fas fa-globe"></i>
+                <h3>Website Development</h3>
+                <p class="card-desc">Get a modern, responsive website for your business or personal brand.</p>
+                <div class="card-price">
+                    <span class="price-tag">💰 Starting at ₹300</span>
+                    <span class="delivery-tag">⚡ Delivered in 24 hours</span>
+                </div>
             </div>
-            <div class="card">
-                <i class="fab fa-java"></i>
-                <h3>Java Development</h3>
-                <ul class="service-list">
-                    <li>Java assignment help</li>
-                    <li>Mini projects in Java</li>
-                    <li>Fix Java code errors</li>
-                    <li>Logic building & debugging</li>
-                    <li>Basic backend dev using Spring Boot</li>
-                </ul>
-            </div>
+
             <div class="card">
                 <i class="fas fa-wrench"></i>
                 <h3>Bug Fix & UI Improvement</h3>
-                <ul class="service-list">
-                    <li>Fix HTML, CSS, JavaScript issues</li>
-                    <li>Improve website design & layout</li>
-                    <li>Make websites mobile responsive</li>
-                    <li>Enhance user experience (UI/UX)</li>
-                    <li>Optimize basic website performance</li>
-                </ul>
+                <p class="card-desc">Fix layout issues, broken features, and improve your website design.</p>
+                <div class="card-price">
+                    <span class="price-tag">💰 ₹200 – ₹500</span>
+                </div>
             </div>
+
+            <div class="card">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Responsive Design</h3>
+                <p class="card-desc">Make your website mobile-friendly and work perfectly on all devices.</p>
+                <div class="card-price">
+                    <span class="price-tag">💰 ₹200 – ₹600</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-user-graduate"></i>
+                <h3>Portfolio Websites</h3>
+                <p class="card-desc">Get a clean and professional portfolio website — perfect for students & developers.
+                </p>
+                <div class="card-price">
+                    <span class="price-tag">💰 ₹300 – ₹800</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fab fa-java"></i>
+                <h3>Java Assignments & Projects</h3>
+                <p class="card-desc">Help with Java coding, debugging, and mini projects.</p>
+                <div class="card-price">
+                    <span class="price-tag">💰 ₹100 – ₹500</span>
+                </div>
+            </div>
+
         </div>
     </section>
 
@@ -139,7 +160,7 @@
                     </div>
                     <div class="highlight-item">
                         <h4>Design Eye</h4>
-                        <span>Figma, Adobe XD</span>
+                        <span>Problem Solving & Creative UI</span>
                     </div>
                 </div>
             </div>
@@ -148,13 +169,14 @@
 
     <section id="contact" style="text-align: center;">
         <h2 class="section-title">Let's Connect</h2>
-        <p class="contact-description">Ready to bring your next big idea to life? <br> Feel free to contact me about websites and designing <span class="highlight-text">at low cost</span>.</p>
+        <p class="contact-description">Ready to bring your next big idea to life? <br> Feel free to contact me about
+            websites and designing <span class="highlight-text">AT LOW COST</span>.</p>
         <div class="social-links-container">
             <a href="mailto:adityakumar20karma@gmail.com" class="social-btn">
                 <i class="fas fa-envelope email-icon"></i>
                 <span>Email</span>
             </a>
-            <a href="https://wa.me/8709826266" class="social-btn" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/918709826266" class="social-btn" target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-whatsapp whatsapp-icon"></i>
                 <span>WhatsApp</span>
             </a>
