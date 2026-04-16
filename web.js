@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }, observerOptions);
 
-    document.querySelectorAll('.card, .hero-content').forEach(el => {
+    document.querySelectorAll('.card, .hero-content, .social-btn').forEach(el => {
         el.style.opacity = '0';
         el.style.transform = 'translateY(30px)';
         el.style.transition = 'all 0.8s ease-out';
